@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.section-hero {
+    height: 100vh;
+    background-image: url('../img/hero-section.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.box-title-hero {
+    margin-top: 125px;
+}
+
+.title-hero {
+    font-weight: 700;
+    font-size: 5rem;
+}
+
+.title-otherproduct {
+    font-weight: 700;
+}
+
+.card-img-top {
+    height: 155px;
+    background-color: #BCD1FF;
+}
+
+.card-otherproduct {
+    box-shadow: 0px 16.3979px 43.7278px rgba(0, 0, 0, 0.06);
+    border-radius: 7px;
+    height: 400px;
+}
+
+.card-body-otherproduct {
+    background-color: #FAFAFA;
+}
+
+.card-title-otherproduct {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.card-text-otherproduct {
+    font-weight: 400;
+    font-size: 12px;
+    color: #374A59;
+}
+
+
+footer {
+    background-color: #4E52BB;
+    margin-top: 100px;
+}
+
+.fitur {
+    border-radius: 96px 96px 0px 0px;
+    position: relative;
+}
+
+.fitur::before {
+    content: '';
+    position: absolute;
+    width: 152px;
+    height: 152px;
+    top: 120px;
+    left: 0;
+    background-image: url('../img/Pattern.png');
+    /* background-position: center; */
+    background-repeat: no-repeat;
+}
+
+.card {
+    border-radius: 25px;
+    border: 2px solid #000000;
+    padding: 20px;
+}
+
+/* @media screen and (max-width: 834px) {
+    .box-title-hero {
+        margin-top: 100px;
+    }
+
+    .section-hero {
+        height: 700px;
+    }
+
+    .title-hero {
+        font-size: 60px;
+    }
+
+    .subtitle-hero {
+        font-size: 38px;
+    }
+
+    .desc-hero {
+        font-size: 20px;
+    }
+
+    .judul {
+        font-size: 36px;
+    }
+
+    .body-card-branding {
+        padding-left: inherit;
+    }
+
+    .section-portofolio::before {
+        height: 450px;
+    }
+} */
+
+@media only screen and (max-width: 600px) {
+    .title-hero {
+      font-size: 5vh;
+    }
+  }
+
+.title-footer {
+    margin-top: 50px;
+}
+
+.klien {
+    border-radius: 96px 96px 0px 0px;
+    position: relative;
+}
+
+.klien::before {
+    content: '';
+    position: absolute;
+    width: 152px;
+    height: 152px;
+    bottom: 10px;
+    left: 194vh;
+    background-image: url('../img/Pattern1.png');
+    /* background-position: center; */
+    background-repeat: no-repeat;
+}
+
+.mitra {
+    background-image: url('../img/wave.svg');
+    background-size: cover;
+    background-position: center;
+    position: block;
+    height: 70vh;
+}
+
+.icon {
+    padding-top: 300px;
+}
+
+.keuntungan {
+    margin-top: 50px;
+}
+
+.text-profit {
+    margin-top: 70px;
+}
+
